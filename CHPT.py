@@ -386,7 +386,7 @@ class Ui_CHPT(object):
 
     def retranslateUi(self, CHPT):
         _translate = QtCore.QCoreApplication.translate
-        CHPT.setWindowTitle(_translate("CHPT", "Classification HyperParameter Tuning"))
+        CHPT.setWindowTitle(_translate("CHPT", "Classification Best Fit Score"))
         self.SVMLabel.setText(_translate("CHPT", "<html><head/><body><p><span style=\" font-size:11pt; color:#ffffff;\">SVM</span></p></body></html>"))
         self.DTLabel.setText(_translate("CHPT", "<html><head/><body><p><span style=\" font-size:11pt; color:#ffffff;\">Decision Tree</span></p></body></html>"))
         self.KNNLabel.setText(_translate("CHPT", "<html><head/><body><p><span style=\" font-size:11pt; color:#ffffff;\">KNearestNeighbors</span></p></body></html>"))
