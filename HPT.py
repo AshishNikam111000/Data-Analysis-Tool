@@ -149,7 +149,7 @@ class Ui_HPT(object):
 
     def retranslateUi(self, HPT):
         _translate = QtCore.QCoreApplication.translate
-        HPT.setWindowTitle(_translate("HPT", "Regression HyperParameter Tuning"))
+        HPT.setWindowTitle(_translate("HPT", "Regression Best Fit Score"))
         self.LinearLabel.setText(_translate("HPT", "<html><head/><body><p><span style=\" font-size:11pt; color:#ffffff;\">Linear Regression</span></p></body></html>"))
         self.LogisticLabel.setText(_translate("HPT", "<html><head/><body><p><span style=\" font-size:11pt; color:#ffffff;\">Logistic Regression</span></p></body></html>"))
 import Images_rc
